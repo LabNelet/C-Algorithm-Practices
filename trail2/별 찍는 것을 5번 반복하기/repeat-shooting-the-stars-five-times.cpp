@@ -5,7 +5,7 @@ void Print10Stars()
 {
    for(int j = 0; j < 10; j++)
    {
-    cout << "*";
+        cout << "*";
    }
    cout << "\n";
 }
