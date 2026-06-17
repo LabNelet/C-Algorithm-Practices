@@ -5,7 +5,7 @@ int Multiple(int a, int b)
 {
     int mul = a;
 
-    for(int i = 1; i < b; i++)
+    for(int i = 1; i < b; i++) // Caution - i must be 1 in order to evade error.
     {
         a *= mul;
     }
