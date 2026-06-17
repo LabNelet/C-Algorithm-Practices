@@ -13,7 +13,7 @@ void FindMinCM(int n, int m)
         }
     }
 
-    cout << (n * m) / max;
+    cout << (n * m) / max; //최소공배수 = 두 수의 곱 / 최대공약수
 }
 
 int main() {
